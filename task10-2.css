@@ -1,0 +1,238 @@
+*{margin: 0;
+    padding:0;}
+html{font-size: 62.5%;}
+
+body{
+    background-color: #fafafa;
+}
+a{text-decoration: none;}
+.box{width:100%;max-width:1920px;}
+.head{width:100%;max-width:1920px;
+    position: relative;
+    background-color:#fff;
+    overflow: hidden;
+}
+.tel{
+    line-height: 40px;
+    color: #29b078;
+}
+.past1 {
+    float: right;
+    vertical-align: middle;
+    padding: 8px ;
+    cursor: pointer;
+}
+/*shouye zhiye tuijian*/
+.warp-nav{
+    width: 100%;
+    font-size:2rem;
+    background-color: #29b078;
+}
+.warp-nav{
+    width: 100%;
+
+    font-size:20px;
+    background-color: #29b078;
+}
+.navbar {
+    height: 100px;
+    margin-bottom: 0;
+}
+.nav-list {
+
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav-list li {
+    float: left;
+    list-style-type: none;
+}
+.nav-list li a {display: inline-block;
+    border-bottom: solid 5px transparent;
+    line-height: 100px;
+
+    padding: 0 30px;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.nav-list li a:hover {
+    border-bottom: solid 5px #fff;}
+.clear{clear: both;}
+.logo{display: inline-block;float: left;margin: 25px 0 0 0;text-align: center;}
+.bkb{width: 100%;max-width: 1920px;}
+
+
+
+
+/*main*/
+
+.main {
+    position: relative;
+    width: 100%;max-width: 1920px;
+    margin: 0 auto;
+}
+
+.news {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 24px 0;
+}
+#hz{ color: #29b078;}
+.main a {
+    text-decoration: none;
+    color: #29b078;
+}
+
+.friend {
+    width: 305px;
+    background: #FFFFFF;
+    margin-bottom: 630px;
+    border: solid 1px #ededed;
+    border-radius: 15px;
+}
+
+.friend h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #ededed;
+}
+
+.friend ul {
+    width: 305px;
+    padding-top: 18px;
+    list-style: none;
+
+}
+
+
+
+.friend ul li span {
+    border: 1px solid #ff650e;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend ul li a:hover, a:visited, a:active {
+    color: #ff650e;border-bottom:none;
+}
+.friend ul li {
+    padding: 18px 0 18px 118px;
+    margin: 0;
+    cursor: pointer;
+    color: #29b078;
+}
+.friend ul li a span:hover {
+    background-color: #ff650e;
+}
+
+#light {
+    color: #ff650e;
+}
+
+#back {
+    background: #ff650e;
+}
+
+.content {
+
+    margin: 0 0 0 27px;
+    background: #FFFFFF;
+float: left;
+    right: 0;
+    padding-bottom: 186px;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: "Microsoft YaHei", sans-serif;
+    border: solid 1px #ededed;
+    border-radius: 15px;
+}
+
+.introduction{height: auto;
+    border-bottom: 1px solid #ededed;
+}
+
+.td{ display: inline-block;
+
+
+    top: 60px;
+    left: 84px;
+    margin: 60px 30px 57px 84px;
+
+}
+
+#style {display:inline-block;float: right;width: 60%;
+    margin: 36px 60px 0 0;
+    font-size:1.4rem;
+
+}
+
+.content p {
+    text-indent: 24px;
+    margin: 40px 60px 0 62px;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    color: #fff;
+    background-color: #26a26f;
+
+}
+
+#tree {
+    margin-top:20px ;
+    color: #FFF;
+    margin-bottom: 55px;
+}
+#tree p{font-size:  1.6rem;font-weight: bold;
+    padding-bottom: 60px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.footer a:hover {text-decoration: none;
+    color: #FFFFFF;
+    border-bottom: solid 2px #fff;
+}
+#web{
+    margin-top:20px;
+    line-height: 27px;
+}
+#web p{
+
+    padding-bottom: 20px;font-size:  1.6rem;font-weight: bold;
+}
+#icon{
+    margin:2rem auto;
+    width:98px;
+    text-align: center;
+}
+#icon span{width: auto;font-size:  1.6rem;}
+#erweima{
+    width: 93px;
+    height: 92px;
+
+    position: absolute;
+    right: 15%;
+    top: 45px;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 14px;
+    border-top:solid #32c086 1px;}
